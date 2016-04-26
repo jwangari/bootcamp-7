@@ -22,4 +22,3 @@ def super_sum(A):
 print super_sum([1,2,3,4,5])
 print super_sum([2,3])
 
-	#pass
