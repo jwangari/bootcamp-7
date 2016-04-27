@@ -5,6 +5,7 @@ def sum_digits(A):
 	list e.g. [10,30,45] should return
 	1+0+3+0+4+5
 	"""
+	
 	total = 0
 	for a in A:
 		B = str(a)
