@@ -1,19 +1,6 @@
+from person import Person
+
 # PEP8
-
-class Person:
-	# class variable: access use class name
-	people_count = 0
-	def __init__(self, name, age):
-		#instance variables access use self
-		self.name = name
-		self.age = age
-		Person.people_count += 1
-
-	def __repr__(self,):
-		return "<{}, {}>".format(self.name, self.age)
-	
-	def say_hello(self,):
-		return "Hello, I'm {} and {} y/o".format(self.name, self.age)
 
 p = Person('Joe', 23)
 p2 = Person('Jane', 30)
