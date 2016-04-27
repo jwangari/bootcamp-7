@@ -1,5 +1,5 @@
 from person import Person
-
+from kenyan import Kenyan
 # PEP8
 
 p = Person('Joe', 23)
@@ -22,3 +22,8 @@ print Person.people_count
 #print p2.people_count
 print p.name, p.age
 print p.say_hello()
+
+k = Kenyan('Miguna', 23)
+#k.probe(True)
+print "Is {} corrupt?\n {}".format(k.name, k.is_corrupt())
+print k.say_hello()
