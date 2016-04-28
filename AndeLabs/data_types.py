@@ -1,4 +1,4 @@
-def data_type(data):
+def data_type(data=None):
   
   if data == None:
     return "no value"
@@ -27,7 +27,7 @@ def data_type(data):
       return None
 
 print data_type("Hi how are you")
-print data_type(None)
+print data_type()
 print data_type(True)
 print data_type(10)
 print data_type(1000)
