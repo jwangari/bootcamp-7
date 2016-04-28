@@ -1,10 +1,11 @@
 def data_type(data):
-  if type(data) == str:
-    return len(data)
-    
-  elif type(data) == None:
+  
+  if data == None:
     return "no value"
     
+  elif type(data) == str:
+    return len(data)
+        
   elif type(data) == bool:
     return data
     
