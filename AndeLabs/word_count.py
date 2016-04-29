@@ -1,19 +1,25 @@
-def word_count(string):
-	list=string.split()
-	#new_list=set(list)
-	my_dict={}
-	for item in list:
-		my_dict[item] = list.count(item)
-	return my_dict		
-# the one that works with one error
-# def words(word):
-#   string_list = word.split()
-#   string_dict = {}
+def words(string):
+	"""
+	The function counts the word occurence in a string
+		e.g. For "olly olly in come free"
 
-#   for word in string_list:
-#     if word in string_dict:
-#       string_dict[word] = string_dict[word] + 1
-#       continue
-#     else:
-#       string_dict[word] = 1
-#   return string_dict
+			olly: 2
+			in: 1
+			come: 1
+			free: 1
+	"""
+	new_list = string.split()
+	string_dict = {}
+
+	for word in new_list:
+		if word.isdigit(): 
+			word = int(word)
+
+		if word in string_dict:
+			string_dict[word] = string_dict[word] + 1
+      
+		else:
+			string_dict[word] = 1
+  	return string_dict
+
+print words("Hi hi hi how are : : yah")

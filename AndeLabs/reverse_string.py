@@ -1,4 +1,9 @@
 def reverse_string(string):
+	"""
+	The function reverse_string(string), returns:
+		- the reverse of the string provided 
+		- if the reverse of the string is a palindrome ==> return true 
+	"""
 	
 	b = []
 
@@ -12,6 +17,7 @@ def reverse_string(string):
 		return True
 	else:
 		return str1
+		
 print reverse_string("civic")
 print reverse_string("books")
 

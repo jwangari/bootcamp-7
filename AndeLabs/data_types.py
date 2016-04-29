@@ -1,4 +1,15 @@
 def data_type(data=None):
+  """
+  The function data_type takes one argument. Compare and return results, based on the argument supplied:
+    -For strings, return its length.
+    -For None return string 'no value'
+    -For booleans return the boolean
+    -For integers return a string showing how it compares to hundred 
+      e.g.  -for 67 return 'less than 100' 
+            -for 4034 return 'more than 100' 
+            -for equal to 100 as the case may be
+    -For lists return the 3rd item OR None if it doesn't exist
+  """
   
   if data == None:
     return "no value"
