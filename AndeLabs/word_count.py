@@ -22,4 +22,4 @@ def words(string):
 			string_dict[word] = 1
   	return string_dict
 
-print words("Hi hi hi how are : : yah")
+print words("Hi hi hi higher car carpet how are : : yah")
