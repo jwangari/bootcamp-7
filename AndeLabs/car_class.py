@@ -7,8 +7,8 @@ class Car:
 		- model
 		- name of the vehicle (provided they are set)
 	"""
-	def __init__(self, type='', model='', name=''):
-		self.type = type
+	def __init__(self, type1='', model='', name=''):
+		self.type = type1
 		self.model = model
 		self.name = name
 
@@ -20,11 +20,11 @@ class Car:
 	# 	self.name = name
 	# 	self.model = model
 	def num_of_doors(self):
-		if self.type != "porshe" or "koenigsegg":
+		if self.type1 != "porshe" or "koenigsegg":
 			return 4
 		return 2
 	def num_of_wheels(self):
-		if self.type != "trailer":
+		if self.type1 != "trailer":
 			return 4
 		return 8
 	def is_saloon(self):
