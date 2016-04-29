@@ -1,4 +1,4 @@
-5class Car:
+class Car:
 	"""
 	Car class instantiates various vehicles.
 
